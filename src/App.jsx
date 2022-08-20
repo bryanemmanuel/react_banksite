@@ -14,18 +14,34 @@ const App = () => {
       </div>
 
 
-      <div className={`bg-black-gradient card-shadow  ${styles.flexStart}`}>
+      <div className={`bg-black-gradient   ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
             <Hero/>
         </div>
       </div>
 
 
+
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
             <Stats/>
             <Business/>
-            <Billing/>
+        </div>
+      </div>
+
+
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+        <Billing/>
+        
+        </div>
+      </div>
+      
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+         
+          
+           
             <CardDeal/>
             <Testimonials/>
             <Clients/>
