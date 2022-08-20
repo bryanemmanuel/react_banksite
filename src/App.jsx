@@ -14,7 +14,7 @@ const App = () => {
       </div>
 
 
-      <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`bg-black-gradient card-shadow  ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
             <Hero/>
         </div>

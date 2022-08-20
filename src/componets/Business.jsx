@@ -20,7 +20,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
       </p>
     </div>
   </div>
-);
+); 
 
 
 
